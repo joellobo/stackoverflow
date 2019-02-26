@@ -4,7 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Restaurante {
-	List<Mesa> mesas = new ArrayList<>();
-	
+	private List<Mesa> mesas = new ArrayList<>();
 
+	public List<Mesa> getMesas() {
+		return mesas;
+	}
+
+	public void setMesas(List<Mesa> mesas) {
+		this.mesas = mesas;
+	}
+	
 }
